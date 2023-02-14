@@ -1,0 +1,236 @@
+@media only screen and (max-width: 950px) {
+
+    body {
+        width: 100%;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .navbar {
+        position: fixed;
+        background-color: #FEFAE0;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        z-index: 10;
+
+    }
+
+    .open-nav .navbar {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        left: 0%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.4rem;
+    }
+
+    .open-nav button {
+        position: fixed;
+        right: 2.8rem;
+        z-index: 99999;
+    }
+
+    .open-nav ion-icon[name="close-outline"] {
+        display:block;
+    }
+
+    .open-nav ion-icon[name="menu-outline"] {
+        display: none;
+        z-index: 99999;
+    }
+
+    .nav-list, .nav-buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 850px) {
+
+
+    body {
+        width: 100%;
+    }
+
+    .hero-desc {
+        padding-top: 16px;
+        margin-bottom: 3rem;
+    }
+
+    .hero-desc p {
+        font-size: 1.8rem;
+        padding-bottom: 1.3rem;
+    } 
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .primary-header {
+        font-size: 3.6rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .hero-section img {
+        position: relative;
+        padding: 0 8%;
+        
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+        margin: 0 10%;
+    }
+
+
+    .collection-section .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .collection-section .desc p{
+        font-size: 1.6rem;
+    }
+
+    .img-box {
+        margin: 0 2%;
+    }
+
+    .img-box:nth-child(4) {
+        grid-row: 3;
+    }
+
+    .features-section {
+        position: relative;
+        padding-top: 20rem!important;
+    }
+
+    .items,
+    .catalog {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr !important;
+        text-align: center!important;
+    }
+
+    .footer h2 {
+        text-align: center;
+    }
+    .social {
+        margin-bottom: 2rem;
+    }
+    .social h4, .useful-links h4 {
+        padding-bottom: 1rem;
+    }
+
+    .footer .social-items {
+        width: 100%;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .useful-links {
+        margin-bottom: 2.5rem;
+    }
+
+
+    .footer-links {
+        flex-direction: row;
+    }
+
+    .subscribe .email-input {
+        padding: 2% 10% 2% 0;
+        background-color: #FEFAE0;
+        border: 1px solid gray;
+        border-radius: 0;
+    }
+
+    a.email {
+        padding: 1.6% 4% 2%;
+        border-radius: 2px;
+    }
+
+    .login-form, .register-form {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 695px){
+    .shipping {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .collection-section .desc p{
+        font-size: 1.4rem!important;
+    }
+
+    .hero-desc p{
+        font-size: 1.6rem!important;
+    }
+
+    .features-section {
+        position: relative;
+        padding-top: 7rem!important;
+    }
+
+    .categories {
+        margin: 0;
+    }
+
+    .items,
+    .catalog {
+        grid-template-columns: 1fr;
+        padding: 0 5%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+    .subscribe .email-input {
+        padding: 2.1% 10% 2% 0;
+        background-color: #FEFAE0;
+        border: 1px solid gray;
+        border-radius: 0;
+    }
+
+
+    .login-form, .register-form {
+        width: 85%;
+    }
+}

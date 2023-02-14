@@ -1,0 +1,9 @@
+.clothes-section, .shoes-section,
+.bags-section,.accessories-section{
+    margin: 5% auto;
+    padding: 5%;
+}
+
+.header {
+    position: relative !important;
+}
