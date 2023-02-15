@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/login-styles.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/media-queries.css">
+    <link rel="stylesheet" href="../css/login-styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
     <title>Log in</title>
 </head>
 
@@ -22,27 +22,33 @@
                 <a href="register-form.html" class="btn btn-reg">Register</a>
             </div>
         </nav>
-    </header>
 
-    <div class="container-login">
-        <form class="login-form">
-            <h3>Log In</h3>
-            <input type="text" placeholder="Username" class="input-field">
-            <br><br>
-            <input type="password" placeholder="Password" class="input-field">
-            <br><br>
-            <button class="btn-log" type="button">Login</button>
-            <div>
-                <span>or</span>
-                <p>Log in with</p>
-                <div div class="icon">
-                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+        <!-- <button class="mobile-nav">
+            <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </button> -->
+    </header>
+    <main>
+        <div class="container-login">
+            <form class="login-form">
+                <h3>Log In</h3>
+                <input type="text" placeholder="Username" id="username" class="input-field">
+                <br><br>
+                <input type="password" placeholder="Password"  id="username" class="input-field">
+                <br><br>
+                <button class="btn-log" type="button">Login</button>
+                <div>
+                    <span>or</span>
+                    <p>Log in with</p>
+                    <div div class="icon">
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </main>
 
     <footer class="flex-1">
         <div class="footer">
@@ -89,5 +95,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
+<script src="../js/custom.js"></script>
 
 </html>

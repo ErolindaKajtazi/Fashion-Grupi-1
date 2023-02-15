@@ -1,0 +1,50 @@
+.hero-section {
+    text-align: center;
+}
+
+.mission-section {
+    padding: 0 5%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.testimonials-section{
+    padding: 0 5%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.testimonials-section h2, .mission-section h2 {
+    padding-bottom: 3rem;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.testimonial {
+    background: #fbfaf3;
+    border-radius: 10%;
+    padding: 3rem;
+    flex-basis: 30%;
+    min-width: 260px;
+}
+
+.testimonial img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.testimonial-text {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #777;
+}

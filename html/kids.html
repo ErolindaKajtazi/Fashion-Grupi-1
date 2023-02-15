@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="../css/media-queries.css">
 </head>
 <body>
-    <header class="header flex-1">
+    <header class="header flex-1 open-nav">
         <h2><a href="#" class="logo">FASHION</a></h2>
         <nav class="navbar flex-1">
             <ul class="nav-list flex-1">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#clothes">Clothes</a></li>
-                <li><a href="#shoes">Shoes</a></li>
-                <li><a href="#bags">Bags</a></li>
-                <li><a href="#accessories">Acessories</a></li>
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="#clothes" class="nav-link">Clothes</a></li>
+                <li><a href="#shoes" class="nav-link">Shoes</a></li>
+                <li><a href="#bags" class="nav-link">Bags</a></li>
+                <li><a href="#accessories" class="nav-link">Acessories</a></li>
             </ul>
 
             <div class="nav-buttons flex-1">
@@ -25,6 +25,11 @@
                 <a href="register-form.html" class="btn btn-reg">Register</a>
             </div>
         </nav>
+
+        <button class="mobile-nav">
+            <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </button>
     </header>
     <main>
         <section id="clothes" class="clothes-section">
@@ -283,4 +288,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+<script src="../js/custom.js"></script>
+
 </html>

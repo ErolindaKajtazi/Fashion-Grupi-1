@@ -1,9 +1,12 @@
+main {
+    padding: 8rem 0 0 0;
+}
+
+
+
 .clothes-section, .shoes-section,
 .bags-section,.accessories-section{
-    margin: 5% auto;
+    margin: 0 auto;
     padding: 5%;
 }
 
-.header {
-    position: relative !important;
-}
