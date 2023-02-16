@@ -148,7 +148,7 @@ h2 a{
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 3rem;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
 }
 .hero {
     background-color: #FEFAE0;
@@ -290,6 +290,7 @@ h2 a{
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
 }
+
 
 .items .col-4 img {
     padding-bottom: 10px;
