@@ -1,9 +1,5 @@
 @media only screen and (max-width: 950px) {
 
-    body {
-        width: 100%;
-    }
-
     .mobile-nav {
         display: block;
     }
@@ -70,9 +66,8 @@
 
 @media only screen and (max-width: 850px) {
 
-
-    body {
-        width: 100%;
+    html {
+        font-size: 58%;
     }
 
     .hero-desc {
@@ -80,26 +75,14 @@
         margin-bottom: 3rem;
     }
 
-    .hero-desc p {
-        font-size: 1.8rem;
-        padding-bottom: 1.3rem;
-    }
-
     .hero {
         grid-template-columns: 1fr;
         text-align: center;
     }
 
-    .primary-header {
-        font-size: 3.6rem;
-        margin-bottom: 2rem;
-    }
-
-
     .hero-section img {
         position: relative;
         padding: 0 8%;
-        
     }
 
     .categories {
@@ -110,10 +93,6 @@
 
     .grid {
         grid-template-columns: 1fr;
-    }
-
-    .desc p{
-        font-size: 1.6rem;
     }
 
     .img-box {
@@ -183,16 +162,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        width: 100%;
-    }
-
-    .collection-section .desc p{
-        font-size: 1.4rem!important;
-    }
-
-    .hero-desc p{
-        font-size: 1.6rem!important;
+    html {
+        font-size: 55%;
     }
     
     .categories {

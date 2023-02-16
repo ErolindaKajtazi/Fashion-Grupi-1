@@ -9,5 +9,3 @@ navButton.addEventListener("click", function () {
     navHeader.classList.toggle("open-nav");
 });
 
-
-

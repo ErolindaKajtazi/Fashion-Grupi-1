@@ -1,11 +1,9 @@
-body {
-    height: 100%;
+main {
+    padding: 8rem 0 0 0;
 }
-.header {
-    position: relative!important;
-}
+
 .container-register {
-    margin-top: 4.5rem;
+    padding-top: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +25,7 @@ body {
 
 
 input {
-    padding: 3% 5%;
+    padding: 3% 5% 3% 0;
     width: 100%;
 }
 
@@ -61,4 +59,12 @@ form p {
 
 ion-icon {
     font-size: 38;
+}
+
+.nav {
+    gap: 4rem;
+}
+
+.nav ul {
+    list-style-type: none;
 }
