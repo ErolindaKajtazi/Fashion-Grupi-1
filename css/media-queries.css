@@ -67,7 +67,7 @@
 @media only screen and (max-width: 850px) {
 
     html {
-        font-size: 58%;
+        font-size: 55%;
     }
 
     .hero-desc {
@@ -163,7 +163,7 @@
 
 @media only screen and (max-width: 600px) {
     html {
-        font-size: 55%;
+        font-size: 53%;
     }
     
     .categories {
